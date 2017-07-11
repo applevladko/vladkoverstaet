@@ -2,12 +2,18 @@ body {
 	background-color: #f3f3f3;
 }
 
-#wrapper {
+.content {
 	max-width: 1400px;
 	margin: auto;
+	text-align: center;
+	height: auto;
 }
-
-#sidebar {
+.wrapper {
+	background-image: url(headphones.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.sidebar {
   background-color: rgb(202, 192, 180);
   position: absolute;
   left: -1px;
@@ -21,14 +27,27 @@ header {
 	width: 92%;
 }
 
-#menu-elipse {
+.menu-elipse {
 	float: right;
 }
 
-#menu-icon {
+.menu-icon {
 	float: right;
 }
 
-header>ul {
+ul {
 	float:left;
+	list-style: none;	
+}
+
+ul>li {
+	display: inline;
+}
+
+footer {
+	float: right;
+}
+
+h1 {
+	color: #e44e57;
 }
