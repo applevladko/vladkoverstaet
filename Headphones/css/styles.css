@@ -1,5 +1,6 @@
 body {
 	background-color: #f3f3f3;
+	color: #92979a;
 }
 
 .content {
@@ -10,7 +11,7 @@ body {
 }
 .wrapper {
 	background-image: url(headphones.png);
-	background-position: center;
+	background-position: center top;
 	background-repeat: no-repeat;
 }
 .sidebar {
@@ -50,4 +51,16 @@ footer {
 
 h1 {
 	color: #e44e57;
+	font-size: 60px;
+}
+.break {
+	height: 780px;
+	width: 837px;
+}
+button {
+	background-color: #e44e57;
+	height: 62px;
+	width: 264px;
+	border: 1px;
+	border-radius: 40px;
 }
