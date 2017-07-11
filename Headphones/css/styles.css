@@ -2,3 +2,33 @@ body {
 	background-color: #f3f3f3;
 }
 
+#wrapper {
+	max-width: 1400px;
+	margin: auto;
+}
+
+#sidebar {
+  background-color: rgb(202, 192, 180);
+  position: absolute;
+  left: -1px;
+  top: 0px;
+  width: 8%;
+  height: 100%;
+}
+
+header {
+	float:right;
+	width: 92%;
+}
+
+#menu-elipse {
+	float: right;
+}
+
+#menu-icon {
+	float: right;
+}
+
+header>ul {
+	float:left;
+}
