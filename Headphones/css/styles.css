@@ -15,12 +15,12 @@ body {
 	background-repeat: no-repeat;
 }
 .sidebar {
-  background-color: rgb(202, 192, 180);
-  position: absolute;
-  left: -1px;
-  top: 0px;
-  width: 8%;
-  height: 100%;
+	background-color: rgb(202, 192, 180);
+	position: absolute;
+	left: -1px;
+	top: 0px;
+	width: 8%;
+	height: 100%;
 }
 
 header {
@@ -36,13 +36,27 @@ header {
 	float: right;
 }
 
-ul {
+.nav-main {
+	font-size: 20px;
+	float:left;
+	list-style: none;	
+	margin-left: 20px;
+}
+
+.nav-main>li {
+	display: inline;
+	padding: 12px;
+}
+
+.nav-footer {
+	font-size: 20px;
 	float:left;
 	list-style: none;	
 }
 
-ul>li {
+.nav-footer>li {
 	display: inline;
+	padding: 12px;
 }
 
 footer {
@@ -50,6 +64,7 @@ footer {
 }
 
 h1 {
+	text-transform: uppercase;
 	color: #e44e57;
 	font-size: 60px;
 }
@@ -57,10 +72,18 @@ h1 {
 	height: 780px;
 	width: 837px;
 }
-button {
+.button {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
 	background-color: #e44e57;
 	height: 62px;
 	width: 264px;
 	border: 1px;
 	border-radius: 40px;
+	padding: 20px 50px 20px 50px;
+	margin: 10px;
+}
+.about {
+	margin: 10px 20px 30px 40px;
 }
