@@ -73,6 +73,7 @@ h1 {
 	width: 837px;
 }
 .button {
+	text-align: center;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -81,8 +82,7 @@ h1 {
 	width: 264px;
 	border: 1px;
 	border-radius: 40px;
-	padding: 20px 50px 20px 50px;
-	margin: 10px;
+	margin: auto;
 }
 .about {
 	margin: 10px 20px 30px 40px;
