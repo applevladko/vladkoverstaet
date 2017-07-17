@@ -59,7 +59,10 @@ header {
 
 .nav-main>li {
 	display: inline;
-	padding: 12px;
+	padding: 22px;
+}
+.nav-main>li:nth-child(4) {
+	margin: 60px;
 }
 
 .nav-footer {
