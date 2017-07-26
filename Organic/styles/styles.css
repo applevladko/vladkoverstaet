@@ -37,23 +37,26 @@ li {
 	color: #eee;
 	margin: auto;
 	font-size: 15px;
-	display: flex;
+	line-height: 30px;
+
+}
+
+.footer-wrapper {
+	margin: 40px 250px 0 250px;
+    display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-start;
 }
-.footer>ul {
-	margin-top: 70px;
-}
-.footer>ul>li:nth-child(1) {
+
+.footer-wrapper>ul>li:nth-child(1) {
 	font-weight: bold;
 }
-.footer>ul:nth-child(1) {
-	margin: 70px 100px 0 300px;
+
+.contacts {
+	margin-right: 150px;
 }
-.footer>ul:nth-child(7) {
-	margin: 70px 300px 0 0px;
-}
+
 .logo {
 	display: flex;
 }
