@@ -53,12 +53,12 @@ li {
 	flex-wrap: wrap;
 	color: white;
 	margin-left: 400px;
+	font-family: 'Lato', sans-serif;
 	font-size: 30px;
 	max-width: 500px;
 }
 .header-text>h1 {
-	font-weight: normal;
-	font-size: 60px;
+	font-family: 'lato', sans-serif;
 	margin-bottom: 40px;
 }
 .main {
