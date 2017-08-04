@@ -14,11 +14,12 @@ li {
     list-style-type: none;
  }
 .header {
-	background-image: url(bg.png);
-	background-size: 100%;
-	min-height: 1100px;
-	max-height: 1100px;
-	width: 100%;
+	background-image: url(bg3.png), url(bg.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: bottom, top;
+	background-size: 100%, 100%;
+	min-height: 941px;
+    max-height: 941px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -39,6 +40,7 @@ li {
 }
 .nav {
      display: flex;
+     margin-right: 700px;
 }
 .nav>ul>li {
      display: inline-flex;
@@ -60,15 +62,6 @@ li {
 .header-text>h1 {
 	font-family: 'lato:400', sans-serif;
 	margin-bottom: 30px;
-}
-.bot-image {
-	background-image: url(bg2.png);
-	background-repeat: no-repeat;
-	background-size: 100%; 
-	display: flex;
-	min-height: 162px;
-    width: 100%;
-	margin: 50px -100px -400px 0;
 }
 .main {
 	min-height: 600px;
