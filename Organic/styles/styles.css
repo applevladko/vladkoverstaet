@@ -22,6 +22,8 @@ li {
     max-height: 941px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: column;
 }
 .header-logo-nav {
 	display: flex;
@@ -32,7 +34,7 @@ li {
 }
 .logo {
 	display: flex;
-	margin: 20px 257px 0 20px;
+	margin: 20px 142px 0 25px;
 	padding: 0;
 	width: 73px;
 	height: 73px;
@@ -44,7 +46,7 @@ li {
 }
 .nav>ul>li {
      display: inline-flex;
-     margin: 30px;
+     margin: 33px 40px 0px 40px;
      color: white;
 }
 .header-text {
@@ -54,8 +56,10 @@ li {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	color: white;
-	margin-left: 400px;
+	margin: 100px 0px 0px 330px;
 	max-width: 500px;
+	width: 380px;
+	padding: 0;
 }
 .header-text>h1 {
 	font-family: 'lato', sans-serif;
@@ -79,20 +83,27 @@ li {
 	flex-grow: 1;
     display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
-	padding: 50px 100px 0 0;
+	justify-content: flex-start;
+	padding-top: 10px;
 }
 blockquote {
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
 	color: #fe992a;
 	font-size: 20px;
 	display: flex;
 	max-width: 300px;
+	margin-left: 320px;
 }
 .content {
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
+	line-height: 31px;
 	display:flex;
 	flex-direction: column;
-	max-width: 700px;
+	max-width: 500px;
+	margin-left: 30px;
+	margin-top: 20px;
 }
 .content>h1 {
 	color: #fe992a;
