@@ -44,9 +44,14 @@ li {
      display: flex;
      margin-right: 400px;
 }
+.nav>ul>li>img {
+    height:4px;
+    width: 5px;
+    margin: 8px 0 0 10px;
+}
 .nav>ul>li {
      display: inline-flex;
-     margin: 33px 40px 0px 40px;
+     margin: 33px 0px 0px 50px;
      color: white;
 }
 .header-text {
